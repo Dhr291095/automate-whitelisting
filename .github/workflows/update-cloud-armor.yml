@@ -2,7 +2,7 @@ name: Time-Based Cloud Armor Update
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes
+    - cron: '0 0 */2 * *'  # Runs every 10 minutes
   workflow_dispatch:        # Manual trigger available
 
 env:
